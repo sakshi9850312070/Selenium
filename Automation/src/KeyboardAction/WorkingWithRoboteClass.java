@@ -23,31 +23,32 @@ public class WorkingWithRoboteClass {
 			driver.get("https://www.instagram.com/?hl=en");
 			
 			driver.findElement(By.name("username")).sendKeys("sakshi_07");
-			
 			Robot r = new Robot();//robot class object
 			
-			r.keyPress(KeyEvent.VK_CONTROL);
 			r.keyPress(KeyEvent.VK_A);
+			r.keyPress(KeyEvent.VK_D);
+			r.keyPress(KeyEvent.VK_M);
+			r.keyPress(KeyEvent.VK_I);
+			r.keyPress(KeyEvent.VK_N);
 			
-			r.keyRelease(KeyEvent.VK_CONTROL);
+			
 			r.keyRelease(KeyEvent.VK_A);
+			r.keyRelease(KeyEvent.VK_D);
+			r.keyRelease(KeyEvent.VK_M);
+			r.keyRelease(KeyEvent.VK_I);
+			r.keyRelease(KeyEvent.VK_N);
 			
-			r.keyPress(KeyEvent.VK_CONTROL);
-			r.keyPress(KeyEvent.VK_C);
-			
-			r.keyRelease(KeyEvent.VK_CONTROL);
-			r.keyRelease(KeyEvent.VK_C);
 			
 			r.keyPress(KeyEvent.VK_TAB);
-			
 			r.keyRelease(KeyEvent.VK_TAB);
 			
-			r.keyPress(KeyEvent.VK_CONTROL);
-			r.keyPress(KeyEvent.VK_V);
+			r.keyPress(KeyEvent.VK_ENTER);
+			r.keyRelease(KeyEvent.VK_ENTER);
 			
-			r.keyRelease(KeyEvent.VK_CONTROL);
-			r.keyRelease(KeyEvent.VK_V);
 			
+			
+			
+		
 			
 			
 						
